@@ -8,7 +8,7 @@ O objetivo do projeto é criar uma API que recebe uma requisição HTTP e retorn
 - **ipaddress**: endereço IP do cliente que está fazendo a requisição
 - **language**: idioma preferido do cliente que está fazendo a requisição
 - **software**: informações do navegador (user-agent) que está sendo utilizado pelo cliente que está fazendo a requisição.
-- 
+ 
 O projeto passará pelos seguintes testes:
 
 - Uma requisição para **/api/whoami** deve retornar um objeto JSON com o endereço IP do cliente no campo ipaddress.
