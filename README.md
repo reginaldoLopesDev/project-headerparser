@@ -5,20 +5,20 @@ Este projeto é parte do curso de backend e API em Node.js da FreeCodeCamp e con
 ## Descrição do Projeto
 O objetivo do projeto é criar uma API que recebe uma requisição HTTP e retorna um objeto JSON com as seguintes informações sobre o cabeçalho (header) da requisição:
 
-**ipaddress**: endereço IP do cliente que está fazendo a requisição
-**language**: idioma preferido do cliente que está fazendo a requisição
-**software**: informações do navegador (user-agent) que está sendo utilizado pelo cliente que está fazendo a requisição
+- **ipaddress**: endereço IP do cliente que está fazendo a requisição
+- **language**: idioma preferido do cliente que está fazendo a requisição
+- **software**: informações do navegador (user-agent) que está sendo utilizado pelo cliente que está fazendo a requisição
 O projeto passará pelos seguintes testes:
 
-Uma requisição para **/api/whoami** deve retornar um objeto JSON com o endereço IP do cliente no campo ipaddress.
-Uma requisição para **/api/whoami** deve retornar um objeto JSON com o idioma preferido do cliente no campo language.
-Uma requisição para **/api/whoami** deve retornar um objeto JSON com informações do navegador que está sendo utilizado pelo cliente no campo software.
+- Uma requisição para **/api/whoami** deve retornar um objeto JSON com o endereço IP do cliente no campo ipaddress.
+- Uma requisição para **/api/whoami** deve retornar um objeto JSON com o idioma preferido do cliente no campo language.
+- Uma requisição para **/api/whoami** deve retornar um objeto JSON com informações do navegador que está sendo utilizado pelo cliente no campo software.
 
 ## Como Executar o Projeto
 
-Clone o repositório para a sua máquina local.
-Instale as dependências do projeto usando o comando npm install.
-Execute o servidor usando o comando npm start.
+1. Clone o repositório para a sua máquina local.
+2. Instale as dependências do projeto usando o comando npm install.
+3. Execute o servidor usando o comando npm run start.
 O servidor estará disponível em http://localhost:3000.
 
 ## Tecnologias Utilizadas
